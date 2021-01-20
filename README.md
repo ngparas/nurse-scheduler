@@ -27,3 +27,5 @@ Lastly, the objective function should penalize certain undesirable outcomes such
 * Should try to respect "no call" requests
 
 The schedule should work in units of full days, ie a nurse should be scheduled in a clinic for a full day at a time. The schedule should be made 1 month at a time.
+
+The app should also support "fixing" certain assignments. For example, a given nurse may have been assigned a holiday months in advance. That should be pre-filled before the optimizer runs, and remain fixed throughout.
